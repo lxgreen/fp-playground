@@ -6,6 +6,9 @@
   "author": "lxgreen",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "watch": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/ts-node index.ts"
+  },
   "devDependencies": {
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
